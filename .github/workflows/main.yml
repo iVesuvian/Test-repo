@@ -1,0 +1,29 @@
+name: Update IPA Repository
+
+on:
+  push:
+    paths:
+      - 'ipas/*.ipa'
+  workflow_dispatch:
+
+jobs:
+  update-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: Update repository JSON
+        run: python update_repo.py
+      
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add repo.json
+          git commit -m "Auto-update repo.json" || echo "No changes"
+          git push
