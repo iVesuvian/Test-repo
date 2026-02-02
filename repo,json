@@ -1,0 +1,43 @@
+{
+  "name": "My IPA Repository",
+  "identifier": "com.yourname.repo",
+  "subtitle": "Custom iOS Apps Repository",
+  "description": "A repository for distributing my iOS applications",
+  "iconURL": "https://your-domain.com/repo-icon.png",
+  "headerURL": "https://your-domain.com/repo-header.png",
+  "website": "https://your-domain.com",
+  "tintColor": "#007AFF",
+  "featuredApps": [],
+  "apps": [
+    {
+      "name": "Your App Name",
+      "bundleIdentifier": "com.yourname.yourapp",
+      "developerName": "Your Name",
+      "subtitle": "Short description",
+      "localizedDescription": "Longer description of your app and what it does.",
+      "iconURL": "https://your-domain.com/app-icon.png",
+      "tintColor": "#007AFF",
+      "category": "utilities",
+      "screenshots": [
+        "https://your-domain.com/screenshot1.png",
+        "https://your-domain.com/screenshot2.png"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2024-02-02",
+          "localizedDescription": "Initial release",
+          "downloadURL": "https://your-domain.com/apps/yourapp-1.0.0.ipa",
+          "size": 12345678,
+          "minOSVersion": "14.0",
+          "maxOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": []
+      }
+    }
+  ],
+  "news": []
+}
