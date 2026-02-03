@@ -37,6 +37,20 @@
         "entitlements": [],
         "privacy": []
       }
+    },
+    {
+      "name": "Lottie",
+      "bundleIdentifier": "com.airbnb.Lottie",
+      "developerName": "Your Name",
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-02-03",
+          "downloadURL": "https://your-domain.com/apps/InjectionIPA_v5.0_@iosdecrypted_injected.ipa",
+          "size": 20070173,
+          "minOSVersion": "11.0"
+        }
+      ]
     }
   ],
   "news": []
