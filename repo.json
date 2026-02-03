@@ -51,6 +51,20 @@
           "minOSVersion": "11.0"
         }
       ]
+    },
+    {
+      "name": null,
+      "bundleIdentifier": null,
+      "developerName": "Your Name",
+      "versions": [
+        {
+          "version": null,
+          "date": "2026-02-03",
+          "downloadURL": "https://your-domain.com/apps/iDeviceToolKit-v2.0.1-idevicecentral.ipa",
+          "size": 2031389,
+          "minOSVersion": "14.0"
+        }
+      ]
     }
   ],
   "news": []
