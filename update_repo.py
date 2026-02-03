@@ -7,7 +7,7 @@ from datetime import datetime
 import hashlib
 
 REPO_JSON = "repo.json"
-IPA_DIRECTORY = "/ipas"
+IPA_DIRECTORY = "./ipas"
 BASE_URL = "https://your-domain.com/apps"
 
 def get_ipa_info(ipa_path):
